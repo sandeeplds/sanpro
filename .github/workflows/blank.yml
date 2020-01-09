@@ -1,9 +1,9 @@
-name: CI
+name: testchecks
 
 on: [push]
 
 jobs:
-  build:
+  UnitTest:
 
     runs-on: ubuntu-latest
 
