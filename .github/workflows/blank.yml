@@ -15,3 +15,11 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+  Integration :
+    runs-on: [windows-latest]
+    steps:
+      - name: Integration Test.
+        run: call jenkin.
+        
+    
